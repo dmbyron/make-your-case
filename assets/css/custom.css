@@ -1,6 +1,6 @@
 body {
     min-height: 2000px;
-    background: linear-gradient(to top, #614646, black);
+    background: linear-gradient(to top, #614646, black, #614646, black);
 }
 
 
@@ -17,10 +17,10 @@ body {
     width: 100%;
     position: fixed;
     background-color: black;
+    z-index: 1000;
 }
 
 #row1 {
-    padding-top: 10em;
     
     z-index: 100;
 }
@@ -33,5 +33,19 @@ body {
 .vid {
     width: 90%;
     padding-top: 5em;
+}
+
+#que {
+    display: block;
+    
+    padding-top: 10em;
+    text-align: center;
+    
+    z-index: 2000;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    color: navajowhite;
 }
 
