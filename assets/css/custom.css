@@ -33,6 +33,9 @@ body {
 .vid {
     width: 90%;
     padding-top: 5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #que {
